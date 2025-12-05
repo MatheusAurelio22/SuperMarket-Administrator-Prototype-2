@@ -88,7 +88,3 @@ JWT Auth
 Multer (upload de imagens)
 
 PostgreSQL
-
- Estrutura do Projeto (Simplificada)
-
- 
