@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  background: #4c57ff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header__title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.header__nav a {
+  margin-left: 25px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.header__nav a:hover {
+  opacity: 0.7;
+}

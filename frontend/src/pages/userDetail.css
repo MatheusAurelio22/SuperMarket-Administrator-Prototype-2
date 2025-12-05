@@ -1,0 +1,88 @@
+.user-detail-container {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-card {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-info h2 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.email {
+  color: #666;
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.user-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+  border: 3px solid #eee;
+}
+
+.no-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  margin: 10px auto;
+  border: 2px solid #ddd;
+}
+
+.upload-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.file-input {
+  margin-bottom: 16px;
+}
+
+.primary-btn {
+  background: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.primary-btn:hover {
+  background: #0066d6;
+}
+
+.loading {
+  padding: 24px;
+  text-align: center;
+  font-size: 18px;
+}
